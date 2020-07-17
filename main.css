@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+#stack {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 80vh;
+    text-align: center;
+    cursor: pointer;
+}
+
+.single-block{
+    position: absolute;
+    bottom: 0;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #EEE;
+    transition: 0.3s ease-in-out;
+    border: 1px solid #ccc;
+}
+
+.content {
+    display: flex;
+    padding: 11px 20px 9px;
+}
+
+.single-block .content img {
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 50%;
+}
+
+.single-block .content > div {
+    width: 180px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.single-block .content > div h3  {
+    width: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.single-block .content > div p  {
+    color: #aaa;
+    margin: 0;
+}
