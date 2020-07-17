@@ -6,7 +6,8 @@ body {
 #stack {
     position: absolute;
     bottom: 30px;
-    left: 40%;
+    left: 50%;
+    transform: translateX(-50%);
     height: 80vh;
     text-align: center;
     cursor: pointer;
